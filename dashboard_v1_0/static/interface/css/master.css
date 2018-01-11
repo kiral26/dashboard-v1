@@ -1,0 +1,132 @@
+/* logo color: #00B4B0 */
+
+html,body {
+  background-color: #f9f9f9;
+  padding-top: 20px;
+
+}
+
+h1,h2,h3,h4,p {
+  color: #444444;
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+.navbar-brand {
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+
+.navbar {
+  background-color: #f9f9f9;
+
+}
+
+.navbar-nav {
+  padding-top: 20px;
+  padding-left: 160px;
+  padding-bottom: 20px;
+}
+
+.btn-simple {
+  font-size: 16px;
+  color: #444444;
+}
+
+.homepagebg1 {
+  background: linear-gradient(#00B4B0, #f2f7f4);
+  padding-bottom: 10px;
+}
+
+.footer {
+  position: absolute;
+  top: 2500px;
+}
+
+#homepage_img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#homepage_img2 {
+  position: absolute;
+  right: 382px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+#homepage_img3 {
+  position: absolute;
+  top: 1200px;
+  left: 382px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+#homepage_img4 {
+  position: absolute;
+  top: 1750px;
+  right: 382px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+#homepage_txt1 {
+  padding-top: 70px;
+}
+
+#homepage_txt2 {
+  padding-bottom: 30px;
+}
+
+#homepage_txt3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#homepage_txt4 {
+  position: absolute;
+  left: 382px;
+  padding-top: 110px;
+}
+
+#homepage_txt5 {
+  position: absolute;
+  left: 382px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+#homepage_txt6 {
+  position: absolute;
+  right: 595px;
+  padding-top: 590px;
+}
+
+#homepage_txt7 {
+  position: absolute;
+  right: 382px;
+  padding-top: 640px;
+  padding-bottom: 160px;
+}
+
+#homepage_txt8 {
+  position: absolute;
+  left: 382px;
+  padding-top: 1150px;
+}
+
+#homepage_txt9 {
+  position: absolute;
+  left: 382px;
+  padding-top: 1200px;
+  padding-bottom: 160px;
+}
