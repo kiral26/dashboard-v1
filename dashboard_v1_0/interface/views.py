@@ -4,8 +4,14 @@ from django.views.generic import TemplateView
 # Create your views here.
 
 
-class ReportsPage(TemplateView):
-    template_name = "interface/reports.html"
+class ReportsSalesPage(TemplateView):
+    template_name = "interface/reports_sales.html"
+
+class ReportsCostsPage(TemplateView):
+    template_name = "interface/reports_costs.html"
+
+class ReportsInventoryPage(TemplateView):
+    template_name = "interface/reports_inventory.html"
 
 class DashboardPage(TemplateView):
     template_name = "interface/dashboard.html"
