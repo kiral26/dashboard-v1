@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="{% url 'home' %}">
-                    <img src="/static/images/Logo (web).png" alt="Prelens">
+                    <img src="/static/images/Logo (web) 2.png" alt="Prelens">
                 </a>
             </div>
             <!-- Top Menu Items -->
@@ -78,17 +78,17 @@
                     <li>
                         <a href="#" data-toggle="collapse" data-target="#submenu-2"><i class="fa fa-fw fa-binoculars"></i>  Forecasts <i class="fa fa-fw fa-angle-down pull-right"></i></a>
                         <ul id="submenu-2" class="collapse">
-                            <li><a href="#"><i class="fa fa-angle-double-right"></i> Sales</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right"></i> Costs</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right"></i> Inventory</a></li>
+                            <li><a href="{% url 'interface:forecasts_sales' %}"><i class="fa fa-angle-double-right"></i> Sales</a></li>
+                            <li><a href="{% url 'interface:forecasts_costs' %}"><i class="fa fa-angle-double-right"></i> Costs</a></li>
+                            <li><a href="{% url 'interface:forecasts_inventory' %}"><i class="fa fa-angle-double-right"></i> Inventory</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#" data-toggle="collapse" data-target="#submenu-3"><i class="fa fa-fw fa-gears"></i>  Optimization <i class="fa fa-fw fa-angle-down pull-right"></i></a>
                         <ul id="submenu-3" class="collapse">
-                            <li><a href="#"><i class="fa fa-angle-double-right"></i> Sales</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right"></i> Costs</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right"></i> Inventory</a></li>
+                            <li><a href="{% url 'interface:optimize_sales' %}"><i class="fa fa-angle-double-right"></i> Sales</a></li>
+                            <li><a href="{% url 'interface:optimize_costs' %}"><i class="fa fa-angle-double-right"></i> Costs</a></li>
+                            <li><a href="{% url 'interface:optimize_inventory' %}"><i class="fa fa-angle-double-right"></i> Inventory</a></li>
                         </ul>
                     </li>
 

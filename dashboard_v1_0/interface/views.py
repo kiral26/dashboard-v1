@@ -16,8 +16,20 @@ class ReportsInventoryPage(TemplateView):
 class DashboardPage(TemplateView):
     template_name = "interface/dashboard.html"
 
-class ForecastsPage(TemplateView):
-    template_name = "interface/forecasts.html"
+class ForecastsSalesPage(TemplateView):
+    template_name = "interface/forecasts_sales.html"
 
-class OptimizationPage(TemplateView):
-    template_name = "interface/optimization.html"
+class ForecastsCostsPage(TemplateView):
+    template_name = "interface/forecasts_costs.html"
+
+class ForecastsInventoryPage(TemplateView):
+    template_name = "interface/forecasts_inventory.html"
+
+class OptimizeSalesPage(TemplateView):
+    template_name = "interface/optimize_sales.html"
+
+class OptimizeCostsPage(TemplateView):
+    template_name = "interface/optimize_costs.html"
+
+class OptimizeInventoryPage(TemplateView):
+    template_name = "interface/optimize_inventory.html"

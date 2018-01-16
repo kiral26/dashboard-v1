@@ -16,17 +16,21 @@ h1,h2,h3,h4,p {
 .navbar-brand {
   padding-bottom: 0px;
   padding-top: 10px;
+  padding-left: 150px;
 }
 
 .navbar {
   background-color: #f9f9f9;
+}
 
+.navbar-right{
+  padding-right: 100px;
 }
 
 .navbar-nav {
-  padding-top: 20px;
   padding-left: 160px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .btn-simple {
@@ -35,98 +39,102 @@ h1,h2,h3,h4,p {
 }
 
 .homepagebg1 {
-  background: linear-gradient(#00B4B0, #f2f7f4);
+  background: url("/static/images/office_bg_blur.jpg") center center no-repeat;
+  background-size: cover;
+  height: 900px;
   padding-bottom: 10px;
 }
 
 .footer {
   position: absolute;
   top: 2500px;
+  left: 300px;
 }
 
 #homepage_img1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  top: 250px;
+  max-width: 950px;
+  max-height: 950px;
+  width: auto;
+  height: auto;
+  right: 100px;
 }
 
 #homepage_img2 {
   position: absolute;
-  right: 382px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  right: 300px;
+  top: 1000px;
   max-width: 500px;
   max-height: 500px;
 }
 
 #homepage_img3 {
   position: absolute;
-  top: 1200px;
-  left: 382px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  top: 1450px;
+  left: 300px;
   max-width: 500px;
   max-height: 500px;
 }
 
 #homepage_img4 {
   position: absolute;
-  top: 1750px;
-  right: 382px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  top: 1900px;
+  right: 300px;
   max-width: 500px;
   max-height: 500px;
 }
 
 #homepage_txt1 {
-  padding-top: 70px;
+  position: absolute;
+  top: 400px;
+  left: 250px;
 }
 
 #homepage_txt2 {
-  padding-bottom: 30px;
+  position: absolute;
+  left: 250px;
+  top: 600px;
 }
 
 #homepage_txt3 {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  position: absolute;
+  left: 250px;
+  top: 550px;
 }
 
 #homepage_txt4 {
   position: absolute;
-  left: 382px;
-  padding-top: 110px;
+  left: 300px;
+  top: 1100px;
 }
 
 #homepage_txt5 {
   position: absolute;
-  left: 382px;
-  padding-top: 160px;
-  padding-bottom: 160px;
+  left: 300px;
+  top: 1150px;
 }
 
 #homepage_txt6 {
   position: absolute;
-  right: 595px;
-  padding-top: 590px;
+  right: 550px;
+  top: 1500px;
 }
 
 #homepage_txt7 {
   position: absolute;
-  right: 382px;
-  padding-top: 640px;
-  padding-bottom: 160px;
+  right: 340px;
+  top: 1550px;
 }
 
 #homepage_txt8 {
   position: absolute;
-  left: 382px;
-  padding-top: 1150px;
+  left: 300px;
+  top: 2000px;
 }
 
 #homepage_txt9 {
   position: absolute;
-  left: 382px;
-  padding-top: 1200px;
-  padding-bottom: 160px;
+  left: 300px;
+  top: 2050px;
 }

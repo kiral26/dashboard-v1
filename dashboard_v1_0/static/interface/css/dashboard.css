@@ -36,7 +36,7 @@
 
 .top-nav {
     padding: 0 15px;
-    height: 85px;
+    height: 65px;
 }
 
 .top-nav>li {
@@ -82,7 +82,7 @@
 @media(min-width:768px) {
     .side-nav {
         position: fixed;
-        top: 85px;
+        top: 65px;
         left: 225px;
         width: 225px;
         margin-left: -225px;
